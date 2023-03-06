@@ -9,7 +9,6 @@ use App\Models\Tenant;
 class Church extends Model
 {
     protected $guarded = [];
-    public $timestamps = false;
 
     public function getGlobalIdentifierKey()
     {

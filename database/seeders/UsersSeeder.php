@@ -17,13 +17,13 @@ class UsersSeeder extends Seeder
         //  - All site settings
         //  - All webmaster settings
 
-        // $newuser = new User();
-        // $newuser->name = "admin";
-        // $newuser->email = "admin@eigrejas.com";
-        // $newuser->password = bcrypt("XXX");
-        // $newuser->permissions_id = "1";
-        // $newuser->status = "1";
-        // $newuser->created_by = 1;
-        // $newuser->save();
+        $newuser = new User();
+        $newuser->name = "admin";
+        $newuser->email = "admin@eigrejas.com";
+        $newuser->password = bcrypt("adminTest");
+        $newuser->permissions_id = "1";
+        $newuser->status = "1";
+        $newuser->created_by = 1;
+        $newuser->save();
     }
 }
